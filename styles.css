@@ -23,6 +23,10 @@ header button {
     margin: 1.5em;
 }
 
+header h1 {
+    font-style: italic;
+}
+
 nav {
     background-color: #fff;
     display: flex;
