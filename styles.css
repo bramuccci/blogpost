@@ -66,6 +66,10 @@ section.new-world {
     text-align: right;
 }
 
+section.new-world h2::before {
+    right: 0;
+}
+
 section h2 {
     position: relative;
     margin: 1em 0;
