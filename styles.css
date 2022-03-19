@@ -21,7 +21,6 @@ nav ul {
     list-style: none;
     gap: 1em;
     align-items: center;
-    opacity: 0.5;
 }
 
 nav ul .dot {
@@ -29,4 +28,8 @@ nav ul .dot {
     width: 1em;
     aspect-ratio: 1;
     border-radius: 50%;
+}
+
+.logo {
+    font-family: 'Noto Sans JP', sans-serif;
 }
