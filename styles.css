@@ -8,3 +8,25 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+    align-items: center;
+    opacity: 0.5;
+}
+
+nav ul .dot {
+    background-color: #000;
+    width: 1em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
