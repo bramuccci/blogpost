@@ -8,3 +8,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+header {
+    background-color: hsl(200, 30%, 85%);
+}
