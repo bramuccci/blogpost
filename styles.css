@@ -1,13 +1,10 @@
-header {
-    background-color: hsl(38, 70%, 80%);
-    max-width: 50vw;
-    padding: 3em;
-    margin: auto;
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
 }
 
-button {
-    background: #000;
-    color: #fff;
-    border: none;
-    padding: 1em;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
