@@ -1,3 +1,7 @@
+:root {
+    --blue: hsl(200, 30%, 85%);
+}
+
 *,
 *::before,
 *::after {
@@ -10,7 +14,7 @@ body {
 }
 
 header {
-    background-color: hsl(200, 30%, 85%);
+    background-color: var(--blue);
     text-align: center;
 }
 
@@ -50,4 +54,29 @@ nav ul .dot {
 
 .logo {
     font-family: 'Noto Sans JP', sans-serif;
+}
+
+section {
+    width: 90vw;
+    max-width: 60rem;
+    margin: 5rem auto;
+}
+
+section.new-world {
+    text-align: right;
+}
+
+section h2 {
+    position: relative;
+    margin: 1em 0;
+}
+
+section h2::before {
+    content: '';
+    height: 0.25rem;
+    width: 25%;
+    background-color: var(--blue);
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
 }
