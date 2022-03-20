@@ -4,6 +4,8 @@ Another example line
 
 Test 1
 
+Test 2
+
 Main 1
 
 Main 2
