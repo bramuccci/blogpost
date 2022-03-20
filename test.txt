@@ -4,4 +4,6 @@ Another example line
 
 Main 1
 
+Main 2
+
 And an end line
