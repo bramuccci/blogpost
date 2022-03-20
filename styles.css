@@ -29,6 +29,7 @@ header button {
 
 header h1 {
     font-style: italic;
+    padding: 0.5em;
 }
 
 nav {
