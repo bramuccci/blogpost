@@ -16,6 +16,7 @@ body {
 header {
     background-color: var(--blue);
     text-align: center;
+    padding: 0 2rem;
 }
 
 header button {
@@ -25,6 +26,12 @@ header button {
     padding: 1em;
     border-radius: 0.25em;
     margin: 1.5em;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+
+header button:hover {
+    transform: scale(1.1);
 }
 
 header h1 {
